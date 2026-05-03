@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 const App = () => {
 
-  const backend = 'http://127.0.0.1:8000/counter/count/';
+  const backend = 'https://counter-ip6o.onrender.com/counter/count/';
 
   const [result, setResult] = useState(0);
   const handleClick = async () => {
